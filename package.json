@@ -1,0 +1,28 @@
+{
+  "name": "hello-world-ci-cd",
+  "version": "1.0.0",
+  "description": "Hola Mundo para trabajar con CI / CD en el tutorial de Medium",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "keywords": [
+    "hello-world",
+    "ci",
+    "cd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm-js-ts-angular-modules-course/hello-world-ci-cd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/npm-js-ts-angular-modules-course/hello-world-ci-cd/issues"
+  },
+  "homepage": "https://github.com/npm-js-ts-angular-modules-course/hello-world-ci-cd#readme",
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0"
+  }
+}
