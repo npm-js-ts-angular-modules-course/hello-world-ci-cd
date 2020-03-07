@@ -1,7 +1,13 @@
 language: node_js
 node_js:
- - stable
-install:
-  npm install
-test:
-  npm test
+- stable
+install: npm install
+test: npm test
+deploy:
+  provider: npm
+  email: mugan86@gmail.com
+  api_key:
+    secure: GkCwrMNVWzh2ZOXEGdOUuqbW9Js+S/GSr/ir8YlDAffL/xKgqoYkUmEvMHJsJJ7puKPTWZrkdYFf3coontwG85yzWfAluRPCkM/J/zRI/EBwCGVOOVfTI4CLTrQeeWFCaMDimc112prMyj6fRbM8t3t0flnrNkB7sdV2/QEsrq/aqFmHikRQVUWUBEYrT2M/w3ElUVb1jXK3rjEkSbpocrusMHCXmXG0DhfVXGKGNuQMQQB09HL4nqzgc+ScZpVjfAYl0tbAzS0hMiqIpeW1Qk4hu1pDworUP4DIE9wZGA7XHu1djPQC1CffQTfxy2vTSE8JMzLIzyA2okQTlLhI6ddsi/KWfIFunomjbtcz6+t6HaCsBnqCRaVW3l39V+1JJl6snh31wXc/tHfyC/mjCEF3Pdy+jfckRtJ0HjP0jX8oEhLQYVqZqYaPHzwFL8wKDl+8U3huJ2sOIMUrXA4gDdhkKPgDQs2EEfLvLPXoIfQ9YTV2Sk68szDyawJjCUl9VJ0NIKALETGQNWggkQUjJ3zqouQ62NpU05aLk10/JwqiNNFF6UQ3yhNCExl2mOYATNRUvq2r1JcSK6ngmzDXAsVl1oIv6oQ7Kyuhod4vTMorJGM6fYo0WmzKuQB1TkZlaABN1VSgnZ0mJni/ysxMtNXfM1U1zTNeGZxcfTPAvmg=
+  on:
+    branch: master
+    repo: npm-js-ts-angular-modules-course/hello-world-ci-cd

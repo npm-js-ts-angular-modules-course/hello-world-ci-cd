@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-ci-cd",
+  "name": "@mugan86/hello-world-ci-cd",
   "version": "1.0.0",
   "description": "Hola Mundo para trabajar con CI / CD en el tutorial de Medium",
   "main": "index.js",
