@@ -21,6 +21,7 @@
   "homepage": "https://github.com/npm-js-ts-angular-modules-course/hello-world-ci-cd#readme",
   "author": "Anartz Mugika Ledo <mugan86@gmail.com>",
   "license": "MIT",
+  "publishConfig": { "access": "public" },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.1.0"
